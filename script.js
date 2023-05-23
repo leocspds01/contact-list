@@ -8,6 +8,8 @@ añadircontacto("Juan Pablo Cespdes");
 añadircontacto("Olga Diaz")
 añadircontacto("Francisco Diaz")
 añadircontacto("Miguel Rubiano")
+añadircontacto("Gloria Rodriguez")
+añadircontacto("Ana Maria Rodriguez")
 console.log(listacontactos)
 
 function eliminarcontacto (nombre) {
