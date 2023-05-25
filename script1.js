@@ -16,7 +16,7 @@ const contacto2 = {
     nombres: "Olga",
     apellidos:"Diaz",
     telefono: 300235615,
-    ubicacion:("Bogota", "calle 27 # 12-54"),
+    ubicacion:{ciudad: "Bogota", direccion: "calle 27 # 12-54"},
         
    }; 
 
@@ -26,7 +26,7 @@ const contacto3 = {
     nombres: "Francisco",
     apellidos:"Diaz",
     telefono: 300235356,
-    ubicacion:("Medellin", "calle 9 # 65-23"),
+    ubicacion:{ciudad: "Medellin", direccion: "calle 9 # 65-23"},
 };
 
 const contacto4 = {
@@ -34,7 +34,7 @@ const contacto4 = {
     nombres: "Miguel",
     apellidos:"Rubiano",
     telefono: 300234598,
-    ubicacion:("Cali", "calle 16 # 28-98"),
+    ubicacion:{ciudad: "Cali", direccion: "calle 16 # 28-98"},
    
 };
 
@@ -43,7 +43,7 @@ const contacto5 = {
     nombres: "Gloria",
     apellidos:"Rodriguez",
     telefono: 300562146,
-    ubicacion:("Bogota", "calle 75 # 25-96"),
+    ubicacion:{ciudad: "Bogota", direccion: "calle 75 # 25-96"},
 };
 
 const contacto6 = {
@@ -51,7 +51,7 @@ const contacto6 = {
     nombres: "Ana Maria",
     apellidos:"Rodriguez",
     telefono: 300652364,
-    ubicacion:("Manizales", "calle 29 # 32-48"),
+    ubicacion:{ciudad: "Manizales", direccion:"calle 29 # 32-48"},
 
 };
 
