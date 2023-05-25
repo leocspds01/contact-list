@@ -19,3 +19,12 @@ function eliminarcontacto (nombre) {
 eliminarcontacto("Francisco Diaz")
 
 console.log(listacontactos);
+
+function editarcontacto(nombre, nombreactualizado) {
+    const indice = listacontactos.indexOf(nombre);
+    listacontactos.splice(indice,1,nombreactualizado);
+}
+
+editarcontacto("Gloria Rodriguez", "Gloria Esperanza Rodriguez")
+console.log(listacontactos)
+
